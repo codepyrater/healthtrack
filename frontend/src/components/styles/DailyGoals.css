@@ -1,0 +1,109 @@
+.daily-goals {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .daily-goals__title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .daily-goals__buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .daily-goals__btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 0.5rem;
+  }
+  
+  .daily-goals__btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .daily-goals__add-goal,
+  .daily-goals__view-goals {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .daily-goals__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .daily-goals__form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .daily-goals__input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .daily-goals__label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .daily-goals__input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .daily-goals__submit-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .daily-goals__submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .daily-goals__goals-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .daily-goals__goal {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .daily-goals__goal-detail {
+    margin-bottom: 0.5rem;
+  }
+  
+  .daily-goals__no-goals {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
