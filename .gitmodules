@@ -1,0 +1,3 @@
+[submodule "frontendapp"]
+	path = frontendapp
+	url = https://github.com/codepyrater/healthtrack.git
