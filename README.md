@@ -1,6 +1,3 @@
-Below is a README file structured to cover essential details about a project using industry standards, including a description of the technologies used, an overview of API endpoints, authentication methods, middleware implementation, and how tokens are stored. This template assumes you are developing a health tracker application.
-
----
 
 # Health Tracker Application
 
